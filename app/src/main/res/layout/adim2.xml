@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgone"
+    >
+
+
+    <Button
+
+
+        android:textStyle="bold"
+        android:background="@drawable/buton4"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+         android:text="@string/text"
+        android:id="@+id/b00"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b01"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/b00"
+        android:layout_toEndOf="@+id/b00" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b02"
+        android:textSize="@dimen/txtSize"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/b01"
+        android:layout_toEndOf="@+id/b01" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b03"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/b02" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b04"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/b03"
+        android:layout_toEndOf="@+id/b03" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b05"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/b04"
+        android:layout_toEndOf="@+id/b04" />
+
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+         android:text="@string/text"
+        android:id="@+id/b10"
+        android:layout_below="@+id/b00"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b11"
+        android:layout_below="@+id/b00"
+        android:layout_toRightOf="@+id/b00"
+        android:layout_toEndOf="@+id/b00" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b12"
+        android:layout_below="@+id/b02"
+        android:layout_alignLeft="@+id/b02"
+        android:layout_alignStart="@+id/b02" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b13"
+        android:layout_below="@+id/b02"
+        android:layout_toRightOf="@+id/b02"
+        android:layout_toEndOf="@+id/b02" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b14"
+        android:layout_below="@+id/b04"
+        android:layout_alignLeft="@+id/b04"
+        android:layout_alignStart="@+id/b04" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b15"
+        android:layout_below="@+id/b04"
+        android:layout_toRightOf="@+id/b04"
+        android:layout_toEndOf="@+id/b04" />
+
+
+
+
+    <Button
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+         android:text="@string/text"
+        android:id="@+id/b20"
+        android:layout_below="@+id/b10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/buton4" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b21"
+        android:layout_below="@+id/b11"
+        android:layout_toLeftOf="@+id/b12"
+        android:layout_toStartOf="@+id/b12" />
+
+    <Button
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b22"
+
+        android:background="@drawable/buton4"
+        android:layout_below="@+id/b12"
+        android:layout_alignLeft="@+id/b12"
+        android:layout_alignStart="@+id/b12" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b23"
+        android:layout_below="@+id/b12"
+        android:layout_toRightOf="@+id/b12"
+        android:layout_toEndOf="@+id/b12" />
+
+    <Button
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b24"
+        android:layout_below="@+id/b14"
+
+        android:background="@drawable/buton4"
+        android:layout_alignLeft="@+id/b14"
+        android:layout_alignStart="@+id/b14" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b25"
+        android:layout_below="@+id/b14"
+        android:layout_toRightOf="@+id/b14"
+        android:layout_toEndOf="@+id/b14" />
+
+
+    <Button
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+         android:text="@string/text"
+        android:id="@+id/b30"
+        android:layout_below="@+id/b20"
+
+        android:background="@drawable/buton4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b31"
+        android:layout_below="@+id/b21"
+
+        android:background="@drawable/buton4"
+        android:layout_toLeftOf="@+id/b22"
+        android:layout_toStartOf="@+id/b22" />
+
+    <Button
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b32"
+        android:layout_below="@+id/b21"
+        android:background="@drawable/buton4"
+        android:layout_toRightOf="@+id/b21"
+        android:layout_toEndOf="@+id/b21" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b33"
+        android:layout_below="@+id/b22"
+        android:layout_toRightOf="@+id/b22"
+        android:layout_toEndOf="@+id/b22" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b34"
+        android:layout_below="@+id/b23"
+        android:layout_toRightOf="@+id/b23"
+        android:layout_toEndOf="@+id/b23" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b35"
+        android:layout_below="@+id/b24"
+        android:layout_toRightOf="@+id/b24"
+        android:layout_toEndOf="@+id/b24" />
+
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+         android:text="@string/text"
+        android:id="@+id/b40"
+        android:layout_below="@+id/b30"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b41"
+        android:layout_below="@+id/b30"
+        android:layout_toRightOf="@+id/b30"
+        android:layout_toEndOf="@+id/b30" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b42"
+        android:layout_below="@+id/b32"
+        android:layout_alignLeft="@+id/b32"
+        android:layout_alignStart="@+id/b32" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b43"
+        android:layout_below="@+id/b32"
+        android:layout_toRightOf="@+id/b32"
+        android:layout_toEndOf="@+id/b32" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b44"
+        android:layout_below="@+id/b34"
+        android:layout_alignLeft="@+id/b34"
+        android:layout_alignStart="@+id/b34" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b45"
+        android:layout_above="@+id/b55"
+        android:layout_alignLeft="@+id/b55"
+        android:layout_alignStart="@+id/b55" />
+
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+         android:text="@string/text"
+        android:id="@+id/b50"
+        android:layout_below="@+id/b40"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b51"
+        android:layout_below="@+id/b40"
+        android:layout_toRightOf="@+id/b40"
+        android:layout_toEndOf="@+id/b40" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b52"
+        android:layout_below="@+id/b41"
+        android:layout_toRightOf="@+id/b41"
+        android:layout_toEndOf="@+id/b41" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b53"
+        android:layout_below="@+id/b42"
+        android:layout_toRightOf="@+id/b42"
+        android:layout_toEndOf="@+id/b42" />
+
+    <Button
+        android:background="@drawable/buton4"
+
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b54"
+        android:layout_below="@+id/b44"
+        android:layout_alignLeft="@+id/b44"
+        android:layout_alignStart="@+id/b44" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b55"
+        android:layout_below="@+id/b44"
+        android:layout_toRightOf="@+id/b44"
+        android:layout_toEndOf="@+id/b44" />
+
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+         android:text="@string/text"
+        android:id="@+id/b60"
+        android:layout_below="@+id/b50"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b61"
+        android:layout_below="@+id/b50"
+        android:layout_toRightOf="@+id/b50"
+        android:layout_toEndOf="@+id/b50" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b62"
+        android:layout_below="@+id/b52"
+        android:layout_toLeftOf="@+id/b53"
+        android:layout_toStartOf="@+id/b53" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b63"
+        android:layout_below="@+id/b53"
+        android:layout_alignLeft="@+id/b53"
+        android:layout_alignStart="@+id/b53" />
+
+    <Button
+        android:background="@drawable/buton4"
+
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b64"
+        android:layout_below="@+id/b54"
+        android:layout_toLeftOf="@+id/b55"
+        android:layout_toStartOf="@+id/b55" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b65"
+        android:layout_below="@+id/b55"
+        android:layout_alignLeft="@+id/b55"
+        android:layout_alignStart="@+id/b55" />
+
+
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+         android:text="@string/text"
+        android:id="@+id/b70"
+        android:layout_below="@+id/b60"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b71"
+        android:layout_below="@+id/b61"
+        android:layout_toRightOf="@+id/b60"
+        android:layout_toEndOf="@+id/b60" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+       android:text="@string/text"
+        android:id="@+id/b72"
+        android:layout_below="@+id/b62"
+        android:layout_toLeftOf="@+id/b63"
+        android:layout_toStartOf="@+id/b63" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b73"
+        android:layout_below="@+id/b63"
+        android:layout_alignLeft="@+id/b63"
+        android:layout_alignStart="@+id/b63" />
+
+    <Button
+        android:background="@drawable/buton4"
+
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b74"
+        android:layout_below="@+id/b64"
+        android:layout_toLeftOf="@+id/b65"
+        android:layout_toStartOf="@+id/b65" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b75"
+        android:layout_below="@+id/b65"
+        android:layout_alignLeft="@+id/b65"
+        android:layout_alignStart="@+id/b65" />
+
+
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+         android:text="@string/text"
+        android:id="@+id/b80"
+        android:layout_below="@+id/b70"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b81"
+        android:layout_below="@+id/b71"
+        android:layout_toLeftOf="@+id/b72"
+        android:layout_toStartOf="@+id/b72" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b82"
+        android:layout_below="@+id/b72"
+        android:layout_toLeftOf="@+id/b73"
+        android:layout_toStartOf="@+id/b73" />
+
+    <Button
+
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b83"
+        android:layout_below="@+id/b73"
+        android:layout_alignLeft="@+id/b73"
+        android:layout_alignStart="@+id/b73" />
+
+    <Button
+        android:background="@drawable/buton4"
+
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b84"
+        android:layout_below="@+id/b73"
+        android:layout_toRightOf="@+id/b73"
+        android:layout_toEndOf="@+id/b73" />
+
+    <Button
+        android:background="@drawable/buton4"
+        android:textStyle="bold"
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:layout_width="@dimen/btnOrta"
+        android:layout_height="@dimen/btnOrta"
+        android:text="@string/text"
+        android:id="@+id/b85"
+        android:layout_below="@+id/b75"
+        android:layout_alignLeft="@+id/b75"
+        android:layout_alignStart="@+id/b75" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:textColor="@color/txtColor"
+        android:textSize="@dimen/txtSize"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/T2"
+        android:layout_alignBottom="@+id/b75"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/b85" />
+
+    <TextView
+        android:textColor="#ff0000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Score: "
+        android:id="@+id/Tscore"
+        android:layout_above="@+id/T1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+
+        android:background="@drawable/buton3"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:text="BACK"
+        android:id="@+id/BTgeri"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <TextView
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00"
+        android:gravity="center"
+        android:id="@+id/T1"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/BTgeri"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

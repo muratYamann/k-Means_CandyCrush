@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/menu"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text=" Play"
+        android:background="@drawable/button"
+        android:textSize="22dp"
+        android:id="@+id/BToyna"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="Score"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:id="@+id/BTscore"
+        android:layout_below="@+id/BToyna"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Exıt"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:id="@+id/BTexit"
+        android:layout_below="@+id/BTscore"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

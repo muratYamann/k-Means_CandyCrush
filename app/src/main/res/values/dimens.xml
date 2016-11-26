@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="btnOrtaWith">45dp</dimen>
+    <dimen name="btnOrtaHeight">45dp</dimen>
+    <dimen name="btnilkWithHeight">56dp</dimen>
+    <dimen name="btnOrta">53dp</dimen>
+    <dimen name="txtSize">10sp</dimen>
+    <dimen name="txtSizeScore">20sp</dimen>
+
+    <color name="txtColor">#000000</color>
+</resources>
