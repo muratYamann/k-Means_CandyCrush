@@ -20,3 +20,25 @@ Algoritma temel olarak 4 aşamadan oluşur:
    bir benzerlik yöntemi kullanılabilir.
 3) Yapılan sınıflandırmaya göre yeni merkezlerin belirlenmesi (veya eski merkezlerin yeni merkeze kaydırılması)
 4) Kararlı hale (stable state) gelinene kadar 2. ve 3. adımların tekrarlanması
+
+
+
+  
+Yahya YOLOĞLU -
+Murat YAMAN   -
+
+PROGRAMIN ÇALIŞMA ADIMLARI:
+
+1. Android Studio üzerinden
+    1: android studio açılır
+    2: programın konumu bulunarak proje seçilir 
+    3: proje Android studionun üst kısmında bulunan Run tusuna basılarak secilir
+    4: Emülatör olarak Telefon secilir ve devam denir.
+
+2. Telefon üzerinden 
+
+    1: telefona xml kodlarının bulundugu dosya yuklenir
+    2: program bulunup çalıstırılır.
+    3: oyun oynanır.
+    
+    
